@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cat {
+    background-color: #81E4DA;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid aqua;
+    flex: 1;
+}
+
+
+@media (min-width : 960 px) {
+
+    .cat{
+        display: flex;
+    }    
+
+}
+
+
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+
+button {
+    padding: 0em;
+    border: 1px;
+    border-radius: 0.5em;
+}
+
+input {
+    padding: 1em;
+
+}
